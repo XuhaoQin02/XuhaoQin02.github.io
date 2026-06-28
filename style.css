@@ -340,3 +340,14 @@ ul.xp li a {
 .list-item.misc {
   width: 100%;
 }
+
+.status-line {
+  display: inline-block;
+  margin: 0.2em 0 0.7em 0;
+  padding: 0.25em 0.65em;
+  border-radius: 999px;
+  background: #f5f8fb;
+  color: #334155;
+  font-weight: 600;
+  font-size: 0.94em;
+}
