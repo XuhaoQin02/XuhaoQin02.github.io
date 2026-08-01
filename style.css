@@ -323,11 +323,40 @@ ul.xp > li {
   line-height: 1.7;
 }
 
-ul.xp > li > .role {
+ul.xp > li.experience-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.35rem;
+  list-style: none;
+}
+
+.experience-logo {
+  flex: 0 0 7.5rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  margin-top: 0.15rem;
+  overflow: hidden;
+}
+
+.experience-logo img {
+  display: block;
+  width: auto;
+  max-width: none;
+  height: 100%;
+}
+
+.experience-details {
+  flex: 1;
+  min-width: 0;
+}
+
+ul.xp > li > .role,
+.experience-details > .role {
   font-weight: 600;
 }
 
-ul.xp > li > ul {
+ul.xp > li > ul,
+.experience-details > ul {
   list-style: circle;
   margin-top: 0.25rem;
   margin-left: 1.1rem;
